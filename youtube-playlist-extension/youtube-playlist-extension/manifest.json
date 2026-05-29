@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Playlist Calculator Pro",
+  "version": "3.2",
+  "description": "Calculate playlist time with style, settings, and language sync.",
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

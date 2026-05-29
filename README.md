@@ -19,11 +19,6 @@
 
 ---
 
-## 📸 Screenshots
-
-*(Вставь сюда ссылку на скриншот твоего красивого интерфейса)*
----
-
 ## 🚀 How to Install (Unpacked Extension)
 
 Since this extension is not yet in the Chrome Web Store, you can install it manually in a few seconds:
